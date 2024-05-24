@@ -8,6 +8,7 @@ export default function Csspage(){
 		<div>
 			<h1 className={color =="red" ?style.red: style.green}>heading for css page</h1>
 			<h2 style={{background:color == "red"? "red ": "green"}}>heading 2</h2>
+			<h3 id={style.orange}>heading 3</h3>
 			<button onClick={() => setColor("green")}>update color</button>
 		</div>
 	)
