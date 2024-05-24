@@ -9,7 +9,7 @@ async function getProduct() {
 
 export default async function Serverproduct() {
   let product = await getProduct();
-  console.log(product);
+  
 
   return (
     <div>
