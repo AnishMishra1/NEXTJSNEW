@@ -1,3 +1,4 @@
+//fetching api in client rendering
 "use client";
 
 import { useState, useEffect } from "react";
