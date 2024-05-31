@@ -15,7 +15,7 @@ export default async function Page(){
             user list printing
             {
                 users.map( elem => (
-                    <h1>{elem.id}</h1>
+                    <h1 key={elem.id}>{elem.id}</h1>
                 ))
             }
         </div>

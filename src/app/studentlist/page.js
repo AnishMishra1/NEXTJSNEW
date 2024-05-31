@@ -14,7 +14,7 @@ export default function StudentList(){
     welcome to student list
     <h1>Student List</h1>
             <ul>
-                {arr.map((elem)=> (<li> 
+                {arr.map((elem)=> (<li key={elem.id}> 
                     <Link href={`/studentlist/${elem.name}`}>{elem.name}</Link>
                 </li>))}
                 
